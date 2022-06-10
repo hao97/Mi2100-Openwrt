@@ -15,3 +15,4 @@
 git clone https://github.com/kenzok8/openwrt-packages.git package/zhplug
 git clone https://github.com/monokoo/luci-app-arpbind.git package/zhplug/luci-app-arpbind
 git clone https://github.com/cokebar/luci-app-vlmcsd.git package/zhplug/luci-app-vlmcsd
+git clone https://github.com/kenzok8/small.git package/zhplug
