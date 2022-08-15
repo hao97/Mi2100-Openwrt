@@ -14,9 +14,8 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 git clone https://github.com/mchome/openwrt-vlmcsd.git package/vlmcsd
 git clone https://github.com/mchome/luci-app-vlmcsd.git package/luci-app-vlmcsd
-git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
-git clone https://github.com/kenzok8/small package/small
+git clone https://github.com/hao97/openwrt-packages package/openwrt-packages
+git clone https://github.com/hao97/small package/small
 git clone https://github.com/monokoo/luci-app-arpbind.git package/luci-app-arpbind
 git clone https://github.com/UnblockNeteaseMusic/server.git package/UnblockNeteaseMusic-server
-git clone https://github.com/hao97/easymesh-only-wire.git package/luci-app-easymesh
-rm -rf package/openwrt-packages/luci-app-easymesh
+git clone https://github.com/hao97/easymesh-only-wire.git package/openwrt-packages/luci-app-easymesh
